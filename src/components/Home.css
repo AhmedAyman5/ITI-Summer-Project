@@ -36,7 +36,7 @@
   background-color:  #3C466B; 
   border-radius: 40px;
   height: 60vh;
-  margin-top: 50px;
+  margin-top: 30px;
   position: relative;
 }
 
@@ -64,4 +64,24 @@
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
   color: #0d6efd !important; 
+}
+
+
+.about-section {
+  background-color: #f8f9fa;
+}
+
+.about-text h2 {
+  color: #343a40;
+}
+
+.about-text p {
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+
+
+.about-section{
+  background-color: #F3F9FB;
 }
