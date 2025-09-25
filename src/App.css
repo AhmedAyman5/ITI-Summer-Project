@@ -1,9 +1,16 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
+
+nav {
+  width: 100%;
+}
+
+nav .form-control , .btn{
+  background-color: #cce6ee !important; 
+ } 
 
 .logo {
   height: 6em;
