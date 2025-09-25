@@ -1,9 +1,8 @@
-import React from 'react';
-import "./Home.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import "../../pages/home/Home.css"
 
-function CategoriesSection() {
+function CategoriesNav() {
   const categories = [
     { name: "Groceries" },
     { name: "Premium Fruits" },
@@ -17,13 +16,13 @@ function CategoriesSection() {
   ];
 
   return (
-    <section className="categories-section py-3 bg-white border-bottom">
+    <section className="categories-section py-2 bg-white border-bottom">
       <div className="container">
         <div className="d-flex flex-wrap justify-content-center">
           {categories.map((category, index) => (
             <div 
               key={index} 
-              className="category-item text-center m-2"
+              className="category-item text-center m-1"
               style={{ flex: "0 0 auto" }}
             >
               <div 
@@ -52,5 +51,4 @@ function CategoriesSection() {
   );
 }
 
-export default CategoriesSection;
-
+export default CategoriesNav;

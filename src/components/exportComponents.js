@@ -1,0 +1,9 @@
+export {default as Navbar} from './navbar/Navbar';
+export {default as CategoriesNav} from './categoriesNav/CategoriesNav';
+export {default as HeroSection} from './heroSection/HeroSection';
+export {default as CartBtn} from './cartBtn/CartBtn';
+export {default as FilterProducts} from './filterProducts/FilterProducts';
+export {default as InputSearch} from './inputSearch/InputSearch';
+export {default as StarRating} from './starRating/StarRating';
+export {default as ProductsList} from './productsComponents/productsList/ProductsList';
+export {default as ProductItem} from './productsComponents/productItem/ProductItem';
